@@ -35,7 +35,7 @@ Open docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 ## API Endpoints (short)
 
 * `POST /addresses/` create
-* `GET /addresses/` list 
+* `GET /addresses/` list (supports `limit` & `offset`)
 * `GET /addresses/{id}` retrieve
 * `PUT /addresses/{id}` update
 * `DELETE /addresses/{id}` delete

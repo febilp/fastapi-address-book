@@ -1,3 +1,10 @@
+"""
+database.py
+------------
+Handles database connection setup and SQLAlchemy ORM configuration.
+Uses SQLite for simplicity as per the assignment requirements.
+"""
+
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker

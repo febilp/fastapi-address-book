@@ -1,7 +1,17 @@
+"""
+models.py
+----------
+Defines SQLAlchemy ORM models for database tables.
+"""
+
 from sqlalchemy import Column, Integer, String, Float
 from database import Base
 
 class Address(Base):
+    """
+    Address model representing an address record.
+    Includes name, latitude and longitude.
+    """
     __tablename__ = "addresses"
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
