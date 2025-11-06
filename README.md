@@ -8,7 +8,6 @@ This repository contains a complete, production-minded FastAPI project implement
 
 * `README.md`
 * `requirements.txt`
-* `docker-compose.yml`
 * `database.py`
 * `models.py`
 * `schemas.py`
