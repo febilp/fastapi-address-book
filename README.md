@@ -1,23 +1,3 @@
-# FastAPI Address Book — Complete Project
-
-This repository contains a complete, production-minded FastAPI project implementing the Eastvantage assignment: an address book with CRUD operations, SQLite persistence, validation, and a nearby-addresses query by distance.
-
----
-
-## File index (contents included below)
-
-* `README.md`
-* `requirements.txt`
-* `database.py`
-* `models.py`
-* `schemas.py`
-* `crud.py`
-* `utils.py`
-* `main.py`
-
----
-
----
 
 # README.md
 
